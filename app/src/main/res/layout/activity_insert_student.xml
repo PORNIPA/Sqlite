@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_insert_student"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.sqlite.InsertStudent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:text="Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical" />
+
+                <TextView
+                    android:text="Lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical" />
+
+                <TextView
+                    android:text="Nickname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:ems="10"
+                    android:id="@+id/editText2"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:maxLength="15" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:ems="10"
+                    android:id="@+id/editText3"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:maxLength="15" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:ems="10"
+                    android:id="@+id/editText4"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:maxLength="15" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="OK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ok"
+                android:layout_weight="1" />
+
+            <Button
+                android:text="CANCLE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cancle"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
